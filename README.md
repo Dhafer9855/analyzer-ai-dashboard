@@ -72,5 +72,5 @@ Developed by Dhafer9855
 Version: v1.0.0 – First public beta release.
 
 ## 🔗 Connect
-- LinkedIn: [your-profile-link]
+- LinkedIn: [www.linkedin.com/in/dhafer-alshehri-a68a1611b]
 - GitHub: [https://github.com/Dhafer9855/analyzer-ai-dashboard](https://github.com/Dhafer9855/analyzer-ai-dashboard)
