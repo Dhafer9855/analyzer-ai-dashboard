@@ -13,14 +13,51 @@ An interactive Streamlit app that uses AI to analyze datasets, uncover insights,
 - Test connection to local LLMs
 - Works both **online and offline**
 
-## 🧠 How It Works
-- Select an LLM provider (local or cloud)
-- Upload your dataset and select a target column
-- The app:
-  - Auto-summarizes the data
-  - Performs exploratory data analysis
-  - Sends data summary to an LLM to receive smart suggestions
-  - Falls back to rule-based logic when no LLM is used
+## 📦 Run the App
+
+### ▶️ Option 1: Run on Streamlit Cloud (Online)
+Use OpenAI or Groq for cloud-based LLM insights.
+
+🌐 [Launch the App](https://analyzer-ai-dashboard-kqqpqjmemqrnuvrcqeva9s.streamlit.app)
+
+> *Local LLM is not available on the cloud version.*
+
+---
+
+### 💻 Option 2: Run Locally with Ollama (Offline)
+Use this if you want full control and local LLM support.
+
+#### 1. Clone or download the release:
+```bash
+git clone https://github.com/Dhafer9855/analyzer-ai-dashboard
+cd analyzer-ai-dashboard
+```
+
+Or [Download the ZIP Release](https://github.com/Dhafer9855/analyzer-ai-dashboard/releases)
+
+#### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+#### 3. Run the app
+```bash
+streamlit run app.py
+```
+
+#### 4. (Optional) Enable Local LLM
+To use a local model with Ollama:
+```bash
+ollama serve
+ollama pull llama3
+```
+
+Then in the app:
+- Choose provider: `local`
+- ✅ Check: Use Local LLM
+- Enter model name: `llama3`
+
+---
 
 ## 📂 Folder Structure
 ```
@@ -30,21 +67,10 @@ An interactive Streamlit app that uses AI to analyze datasets, uncover insights,
 /config.json (optional - for storing API keys locally)
 ```
 
-## 🧰 Requirements
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## ▶️ Run the App
-```bash
-streamlit run app.py
-```
-
 ## 💡 Credits
-Developed by [Dhafer Alshehri]  
+Developed by Dhafer9855  
 Version: v1.0.0 – First public beta release.
 
 ## 🔗 Connect
-- LinkedIn: [www.linkedin.com/in/dhafer-alshehri-a68a1611b]
-- GitHub: [https://github.com/Dhafer9855/analyzer-ai-dashboard]
+- LinkedIn: [your-profile-link]
+- GitHub: [https://github.com/Dhafer9855/analyzer-ai-dashboard](https://github.com/Dhafer9855/analyzer-ai-dashboard)
