@@ -1,0 +1,9 @@
+streamlit
+pandas
+openai
+requests
+matplotlib
+seaborn
+scikit-learn
+fpdf
+
